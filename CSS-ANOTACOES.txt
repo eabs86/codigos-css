@@ -1,0 +1,35 @@
+CSS
+    - Cascade Style Sheet
+    - Adicionar estilos a um documento web (HTML)
+    - Determina como deverá ser o layout de uma página e como os elementos do nosso site deve ser
+    - Criado em 1994 por Hakon Wium
+    - Atualmente está na versão 3 (CSS3)
+    - Não é considerada uma linguagem de programação nem linguagem de marcação
+        - É uma linguagem de estilos!
+
+Propriedades x Valores
+# Propriedade = Característica de um elemento no HTML (cor de fundo, largura, altura, espaçamento, etc).
+# Valor = resultado de uma propriedade e como o navegador deve exibir o estilo do elemento.
+Ex:
+    PROPRIEDADE: VALOR
+
+    background: red;
+    color: white;
+
+Como aplicar o CSS?
+- CSS in line:
+    - Dentro do HTML, através da to atributo "styles" na tag
+    - Não é o uso mais indicado, pois é feito em tag por tag.
+        - Não o torna utilizável.
+    - Pode ser usado em casos excepcionais, visto que ele tem prioridade.
+        - Pode ser usado durante testes, para melhor visualização.
+
+- CSS Interno:
+    - Feito dentro do HTML, porém através da tag <style>
+    - Diminui o numero de requisição com o servidor pois o código vem imbutido no HTML
+
+- CSS Externo:
+    - Maneira mais utilizada no mercado
+    - Usa-se um arquivo externo de extensão .css onde contém todos os estilos relacionados aos elementos HTML utilizados nas páginas
+    - Torna-se altamente reutilizável e escalável
+    - É referenciado no HTML da página através da tag <link>
