@@ -33,3 +33,13 @@ Como aplicar o CSS?
     - Usa-se um arquivo externo de extensão .css onde contém todos os estilos relacionados aos elementos HTML utilizados nas páginas
     - Torna-se altamente reutilizável e escalável
     - É referenciado no HTML da página através da tag <link>
+    - Desvantagem: o arquivo é baixado junto com HTML. Se tiver delay, pode ser qeu a página fique sem estilo por algum momento.
+
+
+SELETORES EM CSS:
+    # Seletor por tipo(ou tags): busca por uma tag HTML específica
+    # Selector por ID (#): Busca por elementos através do atributo ID
+    # Selecotr por classe (.): Busca por elemento através do atributo "class"
+    # Seletor Universal (*): Selectiona todos os elementos HTML
+    # Seletor de Atributo ([atrib]): Selectiona elementos que possuem um atributo específico em nosso documento HTML.
+        Conseguimos buscar também por atributos com valor específico.

@@ -1,0 +1,77 @@
+h1{
+    color: lightblue;
+    background-color: darkblue;
+}
+
+div{
+    background-color: rgb(191, 216, 216);
+    color: darkred;
+
+}
+
+li{
+    background-color: rgb(19, 243, 243);
+}
+
+#frase-inicial{         /* aplicando o estilo diretamente na ID*/
+    background-color: red;
+    color: white;
+}
+
+#titulo-tipos{
+    background-color: black;
+    color: aquamarine;
+}
+
+.seletores-mais-comuns{ /* aplicando o estilo diretamente nas classes*/
+    background-color: cornflowerblue;
+    color: brown;
+
+}
+
+.texto-cap{
+    text-transform: uppercase;
+}
+
+*{ /* aplicando o estilo em todo o arquivo html*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+[title]{ /* só aplicou para quem tem o atributo [title]*/
+    color: blueviolet;
+    background-color: black;
+}
+[title="item1"]{ /* só aplicou para quem tem o atributo [title] com determinado valor*/
+    color: rgb(207, 66, 0);
+    background-color: rgb(64, 62, 62);
+}
+
+/*busca por palavra, independente da posição dela no atributo*/
+[title~="itemm"]{ /* só aplicou para quem tem o atributo [title] com a palavra itemm. Precisa do ~ antes do =*/
+    color: rgb(48, 0, 241);
+    background-color: rgb(214, 71, 202);
+}
+/*busca por palavra seguida de um -*/
+[title|="quarto"]{ /* só aplicou para quem tem o atributo [title] com a palavra seguida de um - */
+    color: rgb(241, 0, 0);
+    background-color: rgb(156, 202, 1);
+}
+/*busca por prefixo*/
+[href^="http://"]{
+    background-color: chocolate;
+    color: black;
+}
+
+/*busca por sufixo*/
+[href$=".com.br"]{
+    background-color: rgb(0, 0, 0);
+    color: chocolate
+}
+
+/*busca pela palavra que está no atributo*/
+[href*="login"]{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 55)
+}
+
