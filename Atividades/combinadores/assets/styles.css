@@ -1,0 +1,39 @@
+/*
+
+Combinadores: É uma relação entre tipos de seletores
+Tipos de combinadores:
+A) Combinador Descendente: Usa-se o "espaço"
+B) Combinador Filho: Usa-se 0 >
+C) Combinador irmão adjacente: Usa-se o +
+D) Combinador irmão em geral: Usa-se o ~
+
+Estrutura:
+[SELETOR] [COMBINADOR] [SELETOR]
+
+*/
+
+li{
+    color: red;
+
+}
+
+li li{
+    color: rgb(128, 0, 0);
+}
+
+/*
+#lista-01 li{
+    background-color: aquamarine;
+}
+*/
+.fundo-azul li{
+    background-color: rgb(98, 158, 255);
+}
+
+.fundo-preto li{
+    background-color: black;
+}
+
+.fundo-azul #sublista-01 li{
+    color: blueviolet;
+}

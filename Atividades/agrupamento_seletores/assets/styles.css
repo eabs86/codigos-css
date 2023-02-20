@@ -1,0 +1,15 @@
+.texto,h1,#link-google{
+    color: rgb(226, 43, 43);
+}
+
+p,[id^="botao"]{
+    color: darkgreen;
+    background-color: rgb(172, 170, 170);
+}
+
+/* Se quiser aplicar em apenas tag e class/atributo
+específico, não se usa vírgula nem espaço
+ao separar os seletores a serem agrupados
+ex: p.texto só vai aplicar o estilo
+onde tiver tag P e class texto.*/
+
