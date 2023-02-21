@@ -1,0 +1,43 @@
+/*
+Propriedade de Altura e Largura
+*/
+div{
+    background-color: aquamarine;
+    /* width: 200px; */
+    /* width: auto; Ajusta de acordo com o que tem no elemento */
+    width: initial; /* Assume o valor padrão */
+    height: 100px;
+}
+#div-01{
+    background-color: lightblue;
+    width: 200px;
+    height: 300px;
+}
+
+#div-02{
+    background-color: rgb(173, 230, 222);
+    width: 200px;
+    height: inherit;/*herda o valor da propriedade do elemento pai*/
+}
+
+/*
+Altura e Largura Mínima e Máxima
+*/
+
+button{
+    background-color: aquamarine;
+    min-width: 200px;
+    max-width: 500px;
+    min-height: 300px;
+    max-height: 500px;
+}
+
+/*
+Margem: Cria um espaçamento em torno do elemento
+*/
+#elemento-01{
+    background-color: blue;
+}
+#elemento-02{
+    background-color: blueviolet;
+}

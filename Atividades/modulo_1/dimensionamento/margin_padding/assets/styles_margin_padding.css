@@ -1,0 +1,61 @@
+
+/*
+Margem: Cria um espaçamento em torno do elemento
+
+Padding: Aplica um espaçamento interno, separando o conteúdo das bordas
+*/
+div{
+    width: 200px;
+    height: 300px;
+}
+#elemento-01{
+    color:aliceblue;
+    background-color: blue;
+    padding: 20px 25px 30px 25px;
+    margin: 20px 30px 40px 30px; /*Aplica a margem em todos os lados (qunado um único valor)*/
+                       /* Quando tem mais de um valor: TOPO LATERAIS BOTTOM ou TOPO RIGHT BOTTOM LEFT */
+                       /*O valor "auto" centraliza o elemento de forma horizontal*/
+
+}
+
+#elemento-02{
+    color: aliceblue;
+    background-color: blueviolet;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+}
+
+/*
+Cálculo do Width
+
+Width = Largura + Borda + Padding
+Ex: Para o Elemento-03:
+Width = 300px + 20px + 20px = 340px
+*/
+#elemento-03{
+    color: aliceblue;
+    background-color: crimson;
+    margin: 20px;
+    padding: 20px;
+}
+
+/*
+Uso do Box Sizing
+*/
+#elemento-04{
+    color: aliceblue;
+    background-color: rgb(220, 73, 20);
+    box-sizing: border-box;
+}
+#elemento-05{
+    color: aliceblue;
+    background-color: rgb(61, 109, 19);
+    box-sizing: content-box;
+
+}
+

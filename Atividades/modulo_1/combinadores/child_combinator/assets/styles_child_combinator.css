@@ -1,0 +1,24 @@
+/*
+Seleciona todos os elementos que são filhos imediatos, ou seja,
+estiliza o filho direto do elemento que está especificado no seletor à esquerda
+
+Combinadores: É uma relação entre tipos de seletores
+Tipos de combinadores:
+A) Combinador Descendente: Usa-se o "espaço"
+B) Combinador Filho: Usa-se 0 >
+C) Combinador irmão adjacente: Usa-se o +
+D) Combinador irmão em geral: Usa-se o ~
+
+Estrutura:
+[SELETOR] [COMBINADOR] [SELETOR]
+
+*/
+
+
+.fundo-azul > p{
+    background-color: lightskyblue;
+}
+
+.fundo-verde >p{
+    background-color: lightgreen;
+}

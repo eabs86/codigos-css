@@ -1,0 +1,45 @@
+/*
+Seleciona todos os elementos que são irmãos (geral ou adjacente)
+O Adjacente é para selecionar o elemento que está diretamente "depois" do seletor à esquerda.
+O Geral
+
+Combinadores: É uma relação entre tipos de seletores
+Tipos de combinadores:
+A) Combinador Descendente: Usa-se o "espaço"
+B) Combinador Filho: Usa-se 0 >
+C) Combinador irmão adjacente: Usa-se o +
+D) Combinador irmão em geral: Usa-se o ~
+
+Estrutura:
+[SELETOR] [COMBINADOR] [SELETOR]
+
+*/
+
+/*altera a cor do elemento <p> que esteja logo depois do elemento <div>*/
+/* div + p{
+    color: red;
+}
+
+.fundo-verde + p{
+    background-color: aquamarine;
+} */
+
+/*aplicando para todos os irmãos = irmão em geral*/
+
+/* div ~ p{
+    color: blueviolet;
+} */
+
+/* só pega o primeiro p após o elemento span */
+.fundo-verde span + p{ 
+    background-color: rgb(255, 127, 127);
+}
+
+/* só pega todos os p após o elemento span */
+.fundo-verde span ~ p{ 
+    color: rgb(0, 243, 20);
+}
+
+.fundo-verde p ~ p{ 
+    color: rgb(0, 6, 187);
+}
