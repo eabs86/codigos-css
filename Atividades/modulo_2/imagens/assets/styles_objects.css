@@ -1,0 +1,44 @@
+div{
+    width: 200px;
+    height: 300px;
+
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    border: 5px solid red;
+    object-fit: fill;
+}
+
+#contain{
+    object-fit: contain;
+}
+
+#cover{ /*respeita somente os limites de altura do container*/
+    object-fit: cover;
+}
+
+#none{ /*Fica com a proporção de origem*/
+    object-fit: none;
+}
+
+#scale-down{
+    object-fit: scale-down;
+}
+
+#posicao-01{
+    object-position: 30px 40px;
+}
+
+#posicao-02{
+    object-position: -30px -40px;
+}
+
+#left{
+    width: 400px;
+    height: 200px;
+    border: 5px solid rgb(68, 0, 255);
+    object-fit: cover;
+    object-position: left 20%;
+}

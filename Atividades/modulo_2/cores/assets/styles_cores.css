@@ -1,0 +1,45 @@
+
+li{
+    background-color: aqua;
+}
+#pre-definidas{
+    color: blueviolet;
+}/* No w3schools há uma lista das cores pré-definidas e suportadas pelos brownsers*/
+
+#current-color{
+
+    color: deeppink;
+    border: 2px solid currentColor; /*Pega a cor da fonte*/
+
+}
+
+#rgb{ /*Estrutura do RGB: rgb(R,G,B). Valores vão de 0 a 255 para cada cor*/
+        /*Pode ser usando porcentagem também (0 a 100%)*/
+    color: rgb(255,100,50);
+    background-color: rgb(50,100,52);
+}
+#rgb-alpha{ /*Estrutura do RGB: rgb(R,G,B,A). Valores das cores vão de 0 a 255 para cada cor*/
+            /*Para o A (Alpha) varia de 0 a 1.0*/
+    color: rgba(217, 80, 80, 0.808);
+    background-color: rgba(248, 233, 66, 0.8);
+}
+
+#hex{ /*Estrutura #valor em hexa. Vai de 0 a F em cada dígito, sendo 6 dígitos ao todo*/
+    color: #c01010;
+}
+
+#hex-alpha{/*Adição de mais 2 dígitos no final (00 a FF)*/
+    color: #c01010;
+    background-color: #109dc082;
+}
+
+#hsl{/*Matiz, saturação e luminosidade*/
+    /*A Matiz(hue) vai de 0 a 360 (roda das cores). Segue a direção: vermelho, amarelo, verde, azul e violeta*/
+    /*Saturação (Saturation): Vai de 0 a 100%. 0% é um tom de cinza e 100% é cor total*/
+    /*Luminosidade (lightness): vai de 0 a 100%. O 0% representa preto e o 100% o branco*/
+    color: hsl(240, 100%, 50%);
+}
+
+#hsl-alpha{ /*Adição do canal alpha */
+    background-color: hsla(308, 100%, 50%, 0.2);
+}
