@@ -1,0 +1,21 @@
+.exemplo{
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+    /* background-image: url('./images/beach.jpeg'); */
+    /* background-image: linear-gradient(blue,red,green); */
+    /* background-image: radial-gradient(blue,red,green) */
+    /* background-image: repeating-linear-gradient(to top, blue 0 20px, lightblue 20px 25px) */
+    background-image: url('./images/logo_example.png'),url('./images/background_image01.png');
+
+}
+
+.padroes{    /* Site para padrões d CSS3: https://projects.verou.me/css3patterns/ */
+    width: 300px;
+    height: 300px;
+    background:
+    radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px) 0px 10px,
+    radial-gradient(at 100% 100%,      rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px),
+    #8a3;
+    background-size: 20px 20px;
+}

@@ -1,0 +1,43 @@
+div{
+    margin-bottom: 30px;
+}
+
+.exemplo{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(125, 125, 125);
+    background-image: url('./images/logo_example.png'),url('./images/dublin.jpeg'); /*auto*/
+}
+
+#cover{
+    /*cobre toda a div. Se a imagem for pequena, pode ocorrer perda de qualidade*/
+    background-size: cover;
+
+}
+
+
+#contain{
+    
+    background-size: contain;
+}
+
+
+#tamanho{
+    /*trabalha com a largura de fundo do elemento. A altura é definida automaticamente*/
+    background-size: 200px; /*pode usar porcentagem também.*/
+}
+
+
+#exemplo-x-y{
+
+        background-size: 100px 300px;
+
+    
+}
+
+
+#exemplo-camadas{
+
+    background-size: 200px 100%, cover ;
+    
+}
