@@ -1,0 +1,36 @@
+div{
+    margin-bottom: 30px;
+}
+
+.exemplo{
+    width: 500px;
+    height: 500px;
+    background-image: url('../assets/images/cena01.png');
+    background-size: 200px;
+    border: 1px solid red;
+}
+
+#repeat-x{
+    background-repeat: repeat-x;
+}
+
+#repeat-y{
+    background-repeat: repeat-y;
+}
+
+#space{
+    background-repeat: space;
+}
+
+#round{
+    background-repeat: round;
+}
+
+#no-repeat{
+    background-repeat: no-repeat;
+}
+
+#composto{
+    background-repeat: no-repeat round;
+}
+
