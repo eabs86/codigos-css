@@ -1,0 +1,63 @@
+
+
+div{
+    margin-bottom: 30px;
+}
+
+.exemplo{
+    width: 300px;
+    height: 300px;
+    background-image: url('../assets/images/dublin.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 10px dashed red;
+    padding: 30px;
+}
+
+#padding-box{
+    background-origin: padding-box;
+}
+
+
+#border-box{
+    background-origin: border-box;
+}
+
+#content-box{
+    background-origin: content-box;
+}
+
+.exemplo-clip{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    color: blue;
+    font-size: 40px;
+    font-weight: 900;
+    border: 10px dashed red;
+    padding: 30px;
+    background: linear-gradient(315deg, transparent 75%, #d45d55 0)-10px 0,
+    linear-gradient(45deg, transparent 75%, #d45d55 0)-10px 0,
+    linear-gradient(135deg, #a7332b 50%, transparent 0) 0 0,
+    linear-gradient(45deg, #6a201b 50%, #561a16 0) 0 0 #561a16;
+    background-size: 20px 20px;
+}
+
+#padding-box-clip{
+    background-clip: padding-box;
+}
+
+
+#border-box-clip{
+    background-clip: border-box;
+}
+
+#content-box-clip{
+    background-clip: content-box;
+}
+
+#text{
+    -webkit-background-clip: text; /* para o google chrome*/
+    color: transparent;
+    background-clip: text;  
+}
