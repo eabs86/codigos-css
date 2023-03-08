@@ -1,0 +1,25 @@
+
+
+div{
+    margin-bottom: 30px;
+}
+
+.exemplo{
+    width: 500px;
+    height: 500px;
+    color: rgb(246, 255, 0);
+    font-size: 40px;
+    font-weight: 900;
+    border: 10px dashed red;
+    padding: 30px;
+    /*Definindo todas as propriedades de background através de um único comando de background*/
+
+    background:
+    url('../assets/images/dublin.jpeg')
+    top center / 1000px 200px
+    no-repeat
+    fixed
+    padding-box
+    content-box
+    red;
+}
