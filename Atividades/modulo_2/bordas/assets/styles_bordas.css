@@ -1,0 +1,49 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Tamanho da borda*/
+.exemplo_1{
+    background-color: rgb(221, 114, 114);
+    width: 300px;
+    height: 300px;
+    border-width: 10px 20px 30px 40px; /*se colocar 'thin' definie uma borda de 1px, medium = 3px e thick = 5px*/
+                  /*top right bottom left*/
+    border-style: solid; /*valor padrão None. Tem outros: dashed, dotted, groove, double, etc*/ 
+    border-color: rgb(51, 0, 235);
+}
+
+/*Estilo da Borda*/
+.exemplo_2{
+    background-color: rgb(7, 99, 6);
+    width: 300px;
+    height: 300px;
+    border-width: 10px; /*se colocar 'thin' definie uma borda de 1px, medium = 3px e thick = 5px*/
+                  /*top right bottom left*/
+    border-style: solid; /*valor padrão None. Tem outros: dashed, dotted, groove, double, etc*/ 
+    border-color: blue red;
+}
+/* Configurando usando apenas o border */
+.exemplo_3{
+    background-color: rgb(226, 239, 106);
+    width: 300px;
+    height: 300px;
+    border: 10px solid blue ;
+    /*pode-se utilizar os comandos border-top, border-bottom, etc com as mesmas
+    propriedade do border*/
+    border-bottom-style: dotted;
+}
+
+/* Border Radius e arredondamento das bordas */
+
+.exemplo_4{
+    background-color: rgb(226, 239, 106);
+    width: 300px;
+    height: 300px;
+    border: 10px solid blue ;
+    border-radius: 20px 10px 30px 50px;/*segue o sentido horário começando do topo esquerdo*/
+    /* Para efeito oval, usar barra. Ex.: 10px/20px */
+    /* Se colocar o border radius em 50% transforma em um círculo. Mas para isso precisa que as
+    dimensões sejam iguais no width e heith */
+
+}
