@@ -43,3 +43,14 @@ SELETORES EM CSS:
     # Seletor Universal (*): Selectiona todos os elementos HTML
     # Seletor de Atributo ([atrib]): Selectiona elementos que possuem um atributo específico em nosso documento HTML.
         Conseguimos buscar também por atributos com valor específico.
+
+FONTES EM CSS:
+    Grupos de fontes (exemplos):
+    - Serif => Time New Roman, Georgia, etc
+    - Sans-Serif => Arial
+    - Display (enfeitadas); Fontes comemorativas.
+    - Handwriting (manuscritas); Cursivas
+    - monospace (caracteres que ocupam a mesma largura)
+
+    Site mais conhecido para baixar fontes: fonts.google.com
+

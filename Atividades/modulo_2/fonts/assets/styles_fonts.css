@@ -1,0 +1,37 @@
+/* *{
+    font-family: Arial, Helvetica, sans-serif; /*pode ser cursive, fantasy, monospace etc*/
+                        /*Coloca-se o nome entre aspas se o nome tiver espaçamento
+                         Exemplo: "Times New Roman"*/
+                        /*É possível adicionar uma lista de fontes para, caso o PC
+                        da pessoa não tenha determinada fonte, ele substitua pela seguinte.
+                        Exemplo: Arial, Helvetica, sans-serif */
+/* } */
+ /**/
+
+/* uso do @font-face  */
+/* 
+ @font-face { 
+    font-family: Roboto;
+    src: local(), url("../assets/fonts/Roboto-Regular.ttf"); 
+
+    font-weight: normal;
+ }
+
+ @font-face {
+    font-family: Roboto;
+    src: local(), url("../assets/fonts/Roboto-Black.ttf"); 
+
+    font-weight: bold;
+ } */
+
+
+/* p{
+    font-family: Roboto;
+    font-weight: bold;
+} */
+
+@import url("./global.css");
+
+p{
+   font-family: 'Monoton', cursive;
+}
