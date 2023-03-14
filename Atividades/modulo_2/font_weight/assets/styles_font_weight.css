@@ -1,0 +1,19 @@
+code{
+    background-color: aqua;
+}
+
+#normal{
+    font-weight: normal;
+}
+
+#bold{
+    font-weight: bold; /*aceita valores de 100 até 900*/
+}
+
+div{
+    font-weight: normal;
+}
+
+div p{
+    font-weight: bolder /*fonte mais grossa que o elemento pai.*/
+}
