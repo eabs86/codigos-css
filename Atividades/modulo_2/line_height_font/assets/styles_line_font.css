@@ -1,0 +1,11 @@
+code{
+    background-color: aquamarine;
+}
+
+p{
+    line-height: 200%; /*a recomendação é utilizar a partir de 1.5 ou 150%*/
+}
+
+#font-propriedades{
+    font: italic small-caps bold 24px/2 Georgia, serif
+}
