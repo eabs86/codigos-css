@@ -1,0 +1,93 @@
+.exemplo{
+    width: 200px;
+    border: 1px solid red;
+}
+
+code{
+    background-color: rgb(137, 237, 137);
+}
+
+#text-transform{
+    text-transform:uppercase;
+}
+
+#text-align{
+    padding: 15px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#text-decoration{
+    padding: 15px;
+    text-decoration: underline wavy red 2px;
+    /*Tem outros valores como dashed, dotted, etc*/
+
+}
+
+#text-indent{
+    /*basicamente insere o avanço do parágrafo*/
+    padding: 15px;
+    text-indent: 50px;
+    text-align: justify;
+
+}
+
+#letter-spacing{
+    /*basicamente insere o avanço do parágrafo*/
+    padding: 15px;
+    letter-spacing: 10px;
+    text-align: justify;
+
+}
+
+#word-spacing{
+    /*basicamente insere o avanço do parágrafo*/
+    padding: 15px;
+    word-spacing: 50px;
+    text-align: justify;
+
+}
+
+span{
+    background-color: rgb(117, 235, 239);
+}
+
+#white-space{
+    background-color: blue;
+    white-space: pre-line;
+    /*tem vários valores como normal, nowrap, pre, etc*/
+
+}
+
+
+#word-wrap{
+
+    word-wrap: break-word;
+ 
+
+}
+
+#word-break{
+
+    word-break: keep-all;
+ 
+
+}
+
+
+#writing-mode{
+
+    writing-mode: vertical-rl;
+  
+
+}
+
+#text-overflow{
+
+    text-overflow: clip;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+ 
+
+}
