@@ -1,0 +1,24 @@
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px 10px 0 0 ;
+    border: 10px solid rgb(77, 131, 231);
+    margin: 20px auto;
+    background: yellow;
+    box-shadow: inset 10px 10px 10px 7px gray,
+                      10px 10px 10px 7px rgb(251, 26, 217);
+              /* tipo projhoriz projvert desfoque propagação cor*/
+              /* Ao separar por vírgulas, defini-se as camadas de sombra */
+              /* Usa-se o filter + drop-shadow para figuras com fundo transparente (png) */
+              /* Ex: filter: drop-shadow(10px 10px 5px gray) */
+    opacity: 0.5; /*A transparência vai para todo o conteúdo da div/elemento*/
+    /* para cores, usa-se o canal alpha no rgba */
+}
+
+h2{
+    color: orangered;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 5px 5px 5px gray;
+    /* Pode-se usar filter drop-shadow também */
+}
