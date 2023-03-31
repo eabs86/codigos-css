@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidas Absolutas</title>
+
+    <link rel="stylesheet" href="./assets/styles_medidas_rel.css">
+</head>
+<body>
+    <h1>Trabalhando com Medidas Relativas.</h1>
+    <p>São calculadas com base em unidades já conhecidas. 
+       As principais: %, em, rem, vw, vh entre outras </p>
+       <hr>
+
+       <h1>Pixel x Porcentagem</h1>
+       <div id= "exemplo-pixel"> width=300px;</div>
+       <div id="exemplo-porcentagem">width=50%;</div>
+
+       <hr>
+       
+       <hr>
+       <div id="div-pai"> Div pai
+        <div id="div-filho">Div Filho.
+            width: 50%;
+            height: 50%;</div>
+       </div>
+       <br><br><br><hr>
+
+       <h1>Unidade de Medida "em"</h1>
+       <p>Utiliza como referência a propriedade do <code>font-size</code></p>
+       <p style="font-size: 1em">font-size: 1em = 16px</p>
+       <p style="font-size: 2em">font-size: 2em = 32px</p>
+       <p style="font-size: 3em">font-size: 3em = 64px</p>
+
+       <br><br><br><hr>
+
+       <h1>Unidade de Medida "rem"</h1>
+       <p>Utiliza como referência a propriedade do elemento raiz ( por isso rem = root em) 
+        O elemento raiz de uma página é a tag <code>html</code>
+        É melhor usar o rem pois ele fica atrelado e ajustado automaticamente
+        ao tamanho da fonte configurada no browser.
+       </p>
+       <p style="font-size: 1rem">font-size: 1em = 16px</p>
+       <p style="font-size: 2rem">font-size: 2em = 32px</p>
+       <p style="font-size: 3rem">font-size: 3em = 64px</p>
+
+       <br><br><br><hr>
+
+       <h1>Unidade de Medida "vw"</h1>
+       <p>Viewport é a área visível de uma página web.
+        Pode varia de dispositivo para dispositivo.
+        1vw = 1% do tamanho da largura da área visível da página
+       </p>
+
+
+            
+
+</body>
+</html>

@@ -54,3 +54,17 @@ FONTES EM CSS:
 
     Site mais conhecido para baixar fontes: fonts.google.com
 
+MEDIDAS EM CSS:
+    Principais unidades de medidas:
+        - Pixels, %, inteiros, numbers(valores decimais), dimension(valores numeros com medida atrelada)
+            - Dimension
+                * length, angle, time,resolution
+
+    # MEDIDAS ABSOLUTAS
+        - cm, mm, Q(quarto de milímetro), in (polegadas), pc(Paica), pt(pontos), px(pixels)
+        - Algumas unidades não fazem sentido serem utilizadas quando se estar utilizando tela
+            - ex: centímetros. Geralmente para telas se usa pixels.
+        - Densidade de pixels = PPI (pixels per inch)
+        - Diferença entre Pixel Físico e Pixel Lógico
+            - Fisico: Pixels que realmente existem no dispositivo
+            - Lógico: Pixel renderizado. Quanto de conteúdo cabe na tela.

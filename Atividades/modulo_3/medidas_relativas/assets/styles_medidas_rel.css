@@ -1,0 +1,33 @@
+div{
+    font-size: 30px;
+    width: 500px;
+    border: 2px solid black;
+    background-color: aquamarine;
+}
+#exemplo-pixel{
+    width: 300px;
+    background-color: rgb(148, 148, 235);
+    height: 40px;
+
+}
+
+#exemplo-porcentagem{
+    /*o tamanho fica se ajustando de acordo com a largura do elemento pai.*/
+    width: 50% ;
+    height: 40px;
+    background-color: aquamarine;
+
+}
+
+#div-pai{
+
+    height: 500px;
+    background-color: red;
+}
+
+#div-filho{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+}
+
