@@ -68,3 +68,9 @@ MEDIDAS EM CSS:
         - Diferença entre Pixel Físico e Pixel Lógico
             - Fisico: Pixels que realmente existem no dispositivo
             - Lógico: Pixel renderizado. Quanto de conteúdo cabe na tela.
+
+PROPRIEDADES CSS Display
+    - Determina como as caixas dos elementos devem se comportar no momento de 
+    serem exibidas na tela
+        Ex: block, inline, inline-block, flex, grid e none
+    - Todo elemento de HTML já vem com um valor de display como padrão.
