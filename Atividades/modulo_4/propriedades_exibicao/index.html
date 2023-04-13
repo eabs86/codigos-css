@@ -9,6 +9,60 @@
     <link rel="stylesheet" href="./assets/styles.css">
 </head>
 <body>
-    
+    <h1>Propriedade Display</h1>
+    <p>A propriedade display vai determinar como as caixinhas retangulares irão se comportar
+        na hora de serem exibidas na tela
+    </p>
+
+    <ul>
+        <li>border-width</li>
+        <li>border-style</li>
+        <li>border-color</li>
+    </ul>
+    <h2>Exemplos:</h2>
+    <code>display:block;</code>
+    <br><br>
+    <div class="exemplo">Exemplo 01</div>
+    <p class="exemplo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Ut dicta minima sint laudantium natus enim, facere incidunt dignissimos saepe vitae officia officiis 
+        quisquam animi repudiandae ipsa qui laborum voluptatibus aperiam?</p>
+    <span class="exemplo" >Exemplo 2</span>
+    <span class="exemplo" >Exemplo 3</span>
+    <span class="exemplo" style="display:block;">Exemplo 4</span>
+    <br><br>
+    <code>display:inline;</code>
+    <span class="exemplo" style="display:inline;">Exemplo 5 inline</span>
+    <!-- com display: inline, o comando nao aceita height e width
+    Só será possível definir altura, largura, margem e padding com o inline-block -->
+    <br><br><br>
+    <code>display:inline-block;</code>
+    <p>Lorem ipsum dolor <b class="inline-block-exemplo">sit amet</b> consectetur adipisicing elit. Temporibus ipsa autem tempore libero voluptatibus. Similique, expedita. Alias, ut blanditiis, sunt possimus odio commodi ullam non error sint praesentium veniam mollitia.</p>
+    <hr>
+    <h2>Exemplo de menu de navegação</h2>
+    <nav class="menu-nav">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <br><br><br>
+    <code>display:none;</code>
+    <p>O elemento escondido está na linha abaixo</p>
+    <p class="display-none">Elemento escondido</p>
+    <!-- os elementos filhos também serão escondidos -->
+    <p>O elemento escondido está na linha acima</p>
+    <br><br><br>
+    <hr>
+    <h2>display:none vs visibility:hidden</h2>
+    <div>
+        <span id="item-01" class="exemplo-display">item 01</span>
+        <span id="item-02" class="exemplo-display">item 02</span>
+        <span id="item-03" class="exemplo-display">item 03</span>
+        <span id="item-04" class="exemplo-display">item 04</span>
+        <span id="item-05" class="exemplo-display">item 05</span>
+    </div>
+
 </body>
 </html>

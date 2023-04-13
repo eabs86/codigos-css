@@ -1,0 +1,43 @@
+.exemplo{
+    background-color: rgb(233, 142, 142);
+}
+
+.inline-block-exemplo{
+    display: inline-block;
+    width: 100px;
+    margin: 15px;
+    padding: 25px;
+    background-color: cadetblue;
+
+}
+
+.menu-nav ul li{
+    background-color: aquamarine;
+    display: inline-block;
+    padding: 20px 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.display-none{
+    display: none;
+}
+
+.exemplo-display{
+    background-color: aqua;
+}
+
+#item-02{
+    visibility: hidden;
+    /* mantém o espaço */
+
+}
+
+#item-04{
+    display: none;
+    /* remove o espaço do elemento */
+}
