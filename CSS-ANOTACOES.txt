@@ -74,3 +74,16 @@ PROPRIEDADES CSS Display
     serem exibidas na tela
         Ex: block, inline, inline-block, flex, grid e none
     - Todo elemento de HTML já vem com um valor de display como padrão.
+
+
+FLEXBOX:
+    - O termo vem de Flexible Box Module
+    - Fornece uma maneira mais eficiente de organizar, alinha e distribuir o espaço entre os elementos
+    do container
+    - Existe o flex-container e o flex-item
+        - Mesmo que o elemento seja dinâmico.
+    - Permite posicionar os elementos dentro de outro elemento
+        - Tipo um container
+    - Os elementos dentro do container são conhecidos como itens
+    - O flex-direction leva em consideração o estilo de escrita na qual estamos Trabalhando
+        - LTR (left to right) ou RTL (Right to Left)
