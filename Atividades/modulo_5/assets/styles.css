@@ -8,6 +8,7 @@
 .item{
     background-color: coral;
     margin: 10px;
+
 }
 
 #container-01{
@@ -76,4 +77,29 @@
     
 }
 
+#container-09{
+    justify-content: space-evenly;
+    flex-flow: column wrap;
+    height: 300px;
+    row-gap: 20px;
+    /* é possível usar o comando gap: <espaço entre linhas> <espaço entre colunas>;
+    pode inclusive utilizar outros espaçamento de medidas como rem */
 
+}
+
+#container-10{
+    background-color: darkmagenta;
+    justify-content: space-evenly;
+    flex-flow: column wrap;
+    height: 300px;
+
+}
+.item-04{
+    /* para ser o primeiro elemento: */
+    order:-2; 
+
+}
+
+.item-09{
+    order: -1;
+}

@@ -87,3 +87,5 @@ FLEXBOX:
     - Os elementos dentro do container são conhecidos como itens
     - O flex-direction leva em consideração o estilo de escrita na qual estamos Trabalhando
         - LTR (left to right) ou RTL (Right to Left)
+    - A propriedade align-content só tem funcionalidade se o container tiver mais de 1 linha. Ele 
+      faz o alinhamento das linhas.
