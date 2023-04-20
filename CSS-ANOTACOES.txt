@@ -89,3 +89,9 @@ FLEXBOX:
         - LTR (left to right) ou RTL (Right to Left)
     - A propriedade align-content só tem funcionalidade se o container tiver mais de 1 linha. Ele 
       faz o alinhamento das linhas.
+    Materiais de apoio para flexbox (pesquisar no google):
+        - Flexbox Froggy
+        - A complete guide to Flexbox
+        - Flexbox - Guia completo (origamid)
+        - Conceitos Básicos de Flexbox
+        - Learn CSS - Flexbox 

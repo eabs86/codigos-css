@@ -103,3 +103,43 @@
 .item-09{
     order: -1;
 }
+
+#container-11{
+    background-color: rgb(15, 242, 34);
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+.flexg{
+    flex-grow: 2;
+    /* para controlar o tamanho dos itens filho do container pode-se utilizar a propriedade flex-shrink */
+    /* o flex-basis: define o tamanho inicial do elemento filho. Valor padrão auto define o tamannho pelo conteúdo */
+    /* o flex-grow pega o tamanho base do flex-basis  */
+
+}
+
+#container-12{
+    background-color: rgb(99, 81, 81);
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+.flexsh{
+    flex: 1 1 10px;
+    /* flex: <grow> <shrink> <basis>; */
+}
+
+
+#container-13{
+    background-color: rgb(106, 4, 4);
+    height: 300px;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+.item-align{
+    align-self: flex-end;
+}
