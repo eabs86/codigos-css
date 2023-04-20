@@ -1,0 +1,101 @@
+@import url('reset.css');
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+
+
+.div1 {
+    width: 1440px;
+    height: 56px;
+    background-color: red;
+    padding: 10px;
+    position: relative;
+
+}
+
+.div2 {
+    display: flex;
+    width: 952px;
+    height: 950px;
+    background-color: green;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    top: 20px;
+    left: 20px;
+    flex-flow: row wrap;
+
+    align-content: flex-start;
+
+}
+
+.video{
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 950px;
+    height: 537px;
+}
+
+.titulo{
+    border: 1px solid black;
+    width: 950px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: larger;
+
+
+}
+
+.actions{
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid black;
+    width: 950px;
+    height: 50px;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.item-action{
+    background-color: aqua;
+}
+
+
+.descricao{
+    border: 1px solid black;
+    width: 700px;
+    height: 100px;
+    margin-top: 25px;
+}
+
+.div3 {
+    display:flex;
+    width: 380px;
+    height: 1024px;
+    background-color: blue;
+
+    margin: 20px;
+    padding: 20px;
+    padding: 10px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+.item-video{
+    border: 2px solid rgb(255, 255, 255);
+    height: 90px;
+    width: 160px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
