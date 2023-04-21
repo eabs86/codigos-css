@@ -3,25 +3,45 @@
 .container-main{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 
 
 .container-header {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     width: 1440px;
     height: 56px;
-    background-color: red;
+    /* background-color: red; */
     padding: 10px;
     position: relative;
     gap: 10px;
+    /* align-content: center; */
+    align-items: center;
+    background-size: cover;
+    background-position: center;
 
 }
 
 .item-head{
-    background-color: aqua;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.search{
+    margin-left: 356px;
+    margin-right: 356px;
+}
+
+.avatar{
+    width: 34px;
+    height: 34px;
+    background-image: url("../assets/images/avatar.png");
+
 }
 
 .container-video{
@@ -41,7 +61,7 @@
 
 .video{
     margin-top: 2px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 950px;
     height: 537px;
     background-image: url("../assets/images/thumb_video_now.png");
@@ -50,7 +70,7 @@
 }
 
 .titulo{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 950px;
     height: 30px;
     margin-top: 20px;
@@ -60,33 +80,41 @@
 
 .actions{
     display: flex;
-    flex-flow: row wrap;
-    border: 1px solid black;
+    flex-direction: row;
+
+    /* border: 1px solid black; */
     width: 950px;
     height: 50px;
     margin-top: 30px;
-    gap: 10px;
+    /* padding: 0; */
     align-items: center;
+    align-content: flex-start;
 }
 
 .item-action{
+    /* border: 1px solid black; */
     text-align: center;
     background-size: cover;
     background-position: center;
 }
 
+#dio-channel{
+    margin-left: 12px;
+}
+
 .text-action{
     margin-top: 5px;
-    font-size: 13px;
+    font-size: 14px;
     text-align: left;
-    word-wrap: break-word;
+    width: 125px;
+
 }
 
 .subs-button{
 
-    width: 159px;
+    width: 145px;
     height: 40px;
-
+    margin-left: 33px;
     background-image: url("../assets/images/Button.png");
     background-size: cover;
     background-position: center;
@@ -99,9 +127,15 @@
     color: aliceblue;
 }
 
+#like-button{
+    margin-left: 40px;
+}
 
+#like-count{
+    margin-left: 10px;
+}
 .descricao{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 700px;
     height: 150px;
     margin-top: 25px;
@@ -119,7 +153,7 @@
     top: 10px;
     left: 20px;
     flex-flow: row wrap;
-    justify-content: space-between;
+
 
 }
 
@@ -153,4 +187,8 @@
 #descricao-video-lista{
     font-size: 12px;
     margin-top: 4px;
+}
+
+#texto-descritivo{
+    text-align: left;
 }
