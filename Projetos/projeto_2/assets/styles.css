@@ -1,38 +1,58 @@
 @import url('reset.css');
 
-.container {
+.container-main{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 
 
-.div1 {
+.container-header {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     width: 1440px;
     height: 56px;
-    background-color: red;
+    /* background-color: red; */
     padding: 10px;
     position: relative;
     gap: 10px;
+    /* align-content: center; */
+    align-items: center;
+    background-size: cover;
+    background-position: center;
 
 }
 
 .item-head{
-    background-color: aqua;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
 }
 
-.div2 {
+.search{
+    margin-left: 356px;
+    margin-right: 356px;
+}
+
+.avatar{
+    width: 34px;
+    height: 34px;
+    background-image: url("../assets/images/avatar.png");
+
+}
+
+.container-video{
     display: flex;
     width: 952px;
     height: 950px;
-    background-color: green;
+    /* background-color: rgb(150, 182, 150); */
     position: relative;
     margin: 20px;
     padding: 20px;
-    top: 20px;
+    top: 10px;
     left: 20px;
     flex-flow: row wrap;
     align-content: flex-start;
@@ -40,58 +60,100 @@
 }
 
 .video{
-    margin-top: 20px;
-    border: 1px solid black;
+    margin-top: 2px;
+    /* border: 1px solid black; */
     width: 950px;
     height: 537px;
+    background-image: url("../assets/images/thumb_video_now.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .titulo{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 950px;
     height: 30px;
     margin-top: 20px;
     font-size: larger;
 
-
 }
 
 .actions{
     display: flex;
-    flex-flow: row wrap;
-    border: 1px solid black;
+    flex-direction: row;
+
+    /* border: 1px solid black; */
     width: 950px;
     height: 50px;
     margin-top: 30px;
-    gap: 10px;
+    /* padding: 0; */
+    align-items: center;
+    align-content: flex-start;
 }
 
 .item-action{
-    background-color: aqua;
+    /* border: 1px solid black; */
+    text-align: center;
+    background-size: cover;
+    background-position: center;
 }
 
+#dio-channel{
+    margin-left: 12px;
+}
 
+.text-action{
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: left;
+    width: 125px;
+
+}
+
+.subs-button{
+
+    width: 145px;
+    height: 40px;
+    margin-left: 33px;
+    background-image: url("../assets/images/Button.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#subscribe{
+    margin-top: 12px;
+    font-size: 14px;
+    color: aliceblue;
+}
+
+#like-button{
+    margin-left: 40px;
+}
+
+#like-count{
+    margin-left: 10px;
+}
 .descricao{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 700px;
-    height: 100px;
+    height: 150px;
     margin-top: 25px;
 }
 
-.div3 {
+.container-lista-videos {
     display:flex;
     width: 380px;
     height: 1024px;
-    background-color: blue;
-
+    /* background-color: rgba(0, 0, 255, 0.201); */
     margin: 20px;
     padding: 20px;
     padding: 10px;
     position: relative;
-    top: 20px;
-    left: 30px;
+    top: 10px;
+    left: 20px;
     flex-flow: row wrap;
-    justify-content: space-between;
+
 
 }
 
@@ -102,6 +164,31 @@
     margin-left: 0px;
     margin-right: 10px;
     margin-top: 10px;
+    background-size: cover;
+    background-position: center;
 
 }
 
+.item-texto{
+    border: 2px solid rgb(255, 255, 255);
+    height: 90px;
+    width: 160px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#titulo-video-lista{
+    font-size: 13px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+#descricao-video-lista{
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+#texto-descritivo{
+    text-align: left;
+}
