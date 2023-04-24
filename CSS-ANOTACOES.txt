@@ -95,3 +95,12 @@ FLEXBOX:
         - Flexbox - Guia completo (origamid)
         - Conceitos Básicos de Flexbox
         - Learn CSS - Flexbox 
+
+GRID layout
+    Nomenclaturas do grid
+        - Grid container: elemento pai que possui a propriedade display:grid
+        - Grid items: filhos diretos do grid container
+        - Grid Columns, Grid Rows e Grid Lines (divisórias que compõem a estrutura da grade)
+        - Grid gaps: espaçamento entre linhas e colunas
+        - Grid cell: cada quadrado que fica entre linhas (grid lines)
+         

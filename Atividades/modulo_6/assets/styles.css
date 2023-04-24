@@ -1,0 +1,45 @@
+.container{
+    border: 1px solid red;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: grid; 
+    /* se colocar inline-grid, os 2 containers ficarão um ao lado do outro */
+}
+
+.item{
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.container-01{
+    border: 1px solid rgb(123, 0, 255);
+    background-color: rgb(157, 157, 157);
+    padding: 10px;
+    margin-bottom: 20px;
+    display: grid; 
+    /* se colocar inline-grid, os 2 containers ficarão um ao lado do outro */
+}
+
+.item-01{
+    background-color: rgb(241, 155, 227);
+}
+
+.item-02{
+    background-color: rgb(105, 143, 226);
+}
+
+.item-03{
+    background-color: rgb(75, 209, 189);
+}
+
+.item-04{
+    background-color: rgb(172, 214, 87);
+}
+
+.item-05{
+    background-color: rgb(172, 126, 210);
+}
+
+.item-06{
+    background-color: rgb(217, 171, 111);
+}
