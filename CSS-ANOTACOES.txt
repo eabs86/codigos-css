@@ -103,4 +103,7 @@ GRID layout
         - Grid Columns, Grid Rows e Grid Lines (divisórias que compõem a estrutura da grade)
         - Grid gaps: espaçamento entre linhas e colunas
         - Grid cell: cada quadrado que fica entre linhas (grid lines)
+    Unidade de medida fr:
+        - Criada pra o CSS Grid
+        - Representa uma gração do espaço disponível no container do grid 
          

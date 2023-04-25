@@ -12,12 +12,13 @@
 }
 
 .container-01{
-    border: 1px solid rgb(123, 0, 255);
-    background-color: rgb(157, 157, 157);
+    background: yellow;
     padding: 10px;
     margin-bottom: 20px;
-    display: grid; 
-    /* se colocar inline-grid, os 2 containers ficarão um ao lado do outro */
+    display: grid;
+    /* cada valor é a largura de uma coluna. Podem ser utilizadas medidas relativas. */
+    grid-template-columns: 200px 300px 100px;
+    grid-template-rows: 300px 200px;
 }
 
 .item-01{
@@ -42,4 +43,57 @@
 
 .item-06{
     background-color: rgb(217, 171, 111);
+}
+
+.item-07{
+    background-color: rgb(107, 216, 255);
+}
+
+.container-02{
+    background: rgb(135, 135, 134);
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 500px;
+    display: grid;
+    /* cada valor é a largura de uma coluna. Podem ser utilizadas medidas relativas. */
+    /* grid-template-columns: 2fr 1fr 1fr; */
+    grid-template-columns: repeat(3,1fr); /*forma elegante de dividir colunas no mesmo tamanho*/
+    /* existem outros comandos, como auto-fill, auto-fit */
+    /* exemplo: grid-template-columns: repeat(auto-fill); */
+    /* o comando min-content vai definir o tamanho da celula pelo conteúdo mínimo com quebra de palavra */
+    /* já o max-content pega todo o conteúdo em linha para definir o tamanho da célula. */
+    /* no caso do rows, é preciso definir uma altura do container primeiro! 
+    Ou seja,uma referência*/
+    grid-template-rows: 1fr 2fr;
+}
+
+.container-03{
+    background: rgb(254, 0, 0);
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 500px;
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr); 
+    grid-template-rows: repeat(2, 1fr);
+    /* grid explicitos são aqueles que configuramos com as propriedades */
+    /* grid implicito é quando ele é criado e ainda não foi configurado pelas propriedades.
+    o tamanho é definido pelo conteúdo */
+    grid-auto-rows: 2fr; 
+    /* propriedade utilizada para quando forem criados novos elementos */
+    /* o grid grid-auto-flow controla o algoritmo de reposicionamento automatico dos elementos; */
+    grid-auto-flow: column;
+}
+
+.container-04{
+    background: rgb(255, 119, 0);
+    padding: 10px;
+    margin-bottom: 20px;
+
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: minmax(100px, auto); 
+    /* pode misturar a função minmax com o repeat */
+
 }
