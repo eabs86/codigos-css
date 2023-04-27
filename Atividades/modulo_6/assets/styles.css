@@ -97,3 +97,69 @@
     /* pode misturar a função minmax com o repeat */
 
 }
+
+.container-05{
+    border: 2px solid black;
+    /* basicamente é trabalhar com row lines e grid lines */
+    /* grid lines começam em cima e row lines começam à esquerda */
+    background: rgb(255, 119, 0);
+
+    display: grid;
+
+    grid-template-columns: repeat(2,1fr) 4fr repeat(2,1fr);
+    grid-template-rows: 50px 100px 200px;
+
+}
+.item-a{
+    text-align: center;
+    background-color: aqua;
+
+    grid-column-start: 2;
+    grid-column-end: 5;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+
+.item-b{
+    text-align: center;
+    background-color: rgba(72, 255, 0, 0.695);
+    grid-column-start: 1;
+    grid-column-end: span 3; /* o numero é quandas celular que ele ocupa*/
+    grid-row-start: 2;
+    grid-row-end: span 2;
+
+}
+
+.item-c{
+    /* usando shorthand */
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.695);
+    grid-column: 4 /span 2;
+    grid-row: 1/ span 2;
+    /* pode-se nomear a linha. Ex: grid-template-columns: [primeira-linha-col] 1fr [segunda-linha-col] */
+
+}
+
+.container-06{
+    border: 2px solid black;
+    /* basicamente é trabalhar com row lines e grid lines */
+    /* grid lines começam em cima e row lines começam à esquerda */
+    background: rgb(255, 119, 0);
+
+    display: grid;
+
+    grid-template-columns: repeat(2,1fr) 4fr repeat(2,1fr);
+    grid-template-rows: 50px 100px 200px;
+}
+
+.item-sh{
+
+    /* usando shorthand */
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.695);
+    grid-area: 1 / 2 / 3 / 5;
+    /* grid-area: <grid-row-start> / <grid-column-start> / <grid-row-end> / <grid-column-end> */
+
+}

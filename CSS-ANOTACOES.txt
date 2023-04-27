@@ -106,4 +106,7 @@ GRID layout
     Unidade de medida fr:
         - Criada pra o CSS Grid
         - Representa uma gração do espaço disponível no container do grid 
-         
+    Shorthand para grid:
+        - É feito através da propriedade grid-area
+        - Nela pode-se definir grid-row-start, grid-row-end, grid-column-start e grid-column-end
+        - É possível definir áreas como header, main, sidebar, footer
